@@ -49,14 +49,14 @@ body {
 }
 
 .loading__author {
-  display: block; /* Makes it sit on its own line if needed */
+  display: block; 
   margin-bottom: 16px;
 }
 
 .fact-display {
   font-size: 13px;
   color: #666;
-  min-height: 1.2em; /* Prevents layout jump when empty */
+  min-height: 1.2em; 
   margin-top: 8px;
   transition: opacity 0.5s ease;
 }
