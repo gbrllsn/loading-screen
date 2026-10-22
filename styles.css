@@ -28,3 +28,35 @@ body {
     transform: rotate(360deg);
   }
 }
+
+.loading__anim {
+  margin-top: 16px;
+}
+
+.loading {
+  animation: fadeIn 0.4s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loading__author {
+  display: block; /* Makes it sit on its own line if needed */
+  margin-bottom: 16px;
+}
+
+.fact-display {
+  font-size: 13px;
+  color: #666;
+  min-height: 1.2em; /* Prevents layout jump when empty */
+  margin-top: 8px;
+  transition: opacity 0.5s ease;
+}
